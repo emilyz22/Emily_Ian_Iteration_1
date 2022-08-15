@@ -87,7 +87,6 @@
 		BDE18B1828AA860200916700 = {
 			isa = PBXGroup;
 			children = (
-				BD1C3A6028AA9A4900CF11C1 /* CompleteToDoViewController.swift */,
 				BDE18B2328AA860200916700 /* ToDoListEmily&Ian */,
 				BDE18B3D28AA860600916700 /* ToDoListEmily&IanTests */,
 				BDE18B4728AA860600916700 /* ToDoListEmily&IanUITests */,
@@ -114,6 +113,7 @@
 				BD1C3A5E28AA94F300CF11C1 /* AddToDoViewController.swift */,
 				BD1C3A5C28AA8A7300CF11C1 /* ToDo.swift */,
 				BD1C3A5A28AA89E600CF11C1 /* TableViewController1.swift */,
+				BD1C3A6028AA9A4900CF11C1 /* CompleteToDoViewController.swift */,
 				BDE18B3028AA860600916700 /* Assets.xcassets */,
 				BDE18B3228AA860600916700 /* LaunchScreen.storyboard */,
 				BDE18B3528AA860600916700 /* Info.plist */,

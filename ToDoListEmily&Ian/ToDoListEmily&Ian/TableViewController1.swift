@@ -56,6 +56,13 @@ class TableViewController1: UITableViewController {
 
     nextAddToDoVC.previousToDoTVC = self
     }
+        if let nextCompletedToDoVC = segue.destination as?
+            CompleteToDoViewController {
+            if let choosenToDo = sender as? ToDoClass {
+                nextCompletedToDoVC.selectedToDo = choosenToDo
+                nextCompletedToDoVC.previousToDoTVC = self
+            }
+        }
     }
     override func tableView(_ tableView: UITableView,
     didSelectRowAt indexPath: IndexPath) {
@@ -65,5 +72,6 @@ class TableViewController1: UITableViewController {
     performSegue(withIdentifier: "moveToCompletedToDoVC",
     sender: eachToDo)
     }
+    
     
 }
